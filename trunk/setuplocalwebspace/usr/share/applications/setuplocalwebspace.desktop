@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Set Up Local Web Space
+GenericName=Set Up Local Web Space
+Comment=Set Up Local Web Space
+Exec=setuplocalwebspace
+Icon=/usr/share/pixmaps/gnome-home.png
+Terminal=true
+Type=Application
+Categories=Development;TextEditor;
+StartupNotify=true
+MimeType=text/plain;
