@@ -38,5 +38,16 @@ else
   svn checkout http://access-space-web-tutorials.googlecode.com/svn/trunk/tutorials ~/public_html/tutorials
 fi
 
-/usr/share/setuplocalwebspace/setpermissionsforhour.sh
+#/usr/share/setuplocalwebspace/setpermissionsforhour.sh
+at -f ~/setwebpermissions.sh 09:02 today
+at -f ~/setwebpermissions.sh 10:02 today
+at -f ~/setwebpermissions.sh 11:02 today
+at -f ~/setwebpermissions.sh 12:02 today
+at -f ~/setwebpermissions.sh 13:02 today
+at -f ~/setwebpermissions.sh 14:02 today
+at -f ~/setwebpermissions.sh 15:02 today
+at -f ~/setwebpermissions.sh 16:02 today
+at -f ~/setwebpermissions.sh 17:02 today
+at -f ~/setwebpermissions.sh 18:02 today
+at -f ~/setwebpermissions.sh 19:02 today
 
