@@ -1,0 +1,16 @@
+This package was debianized by Martyn Eggleton <martyn@access-space.org> on
+Thu, 12 Mar 2009 18:18:04 +0000.
+
+It was downloaded from: 
+  svn export http://setuplocalwebspace.googlecode.com/svn/trunk/
+
+Upstream author: Martyn Eggleton <martyn@access-space.org>
+
+This software is copyright (c) 1998-99 by Martyn Eggleton. Access Space
+
+You are free to distribute this software under the terms of
+the GNU Lesser General Public License  either version 2 of the License,
+or (at your option) any later version.
+On Debian systems, the complete text of the GNU General Public
+License can be found in the file `/usr/share/common-licenses/LGPL-2'.
+

@@ -1,0 +1,15 @@
+Package: setuplocalwebspace
+Version: 0.1.2
+Source: setuplocalwebspace
+Section: main devel
+Priority: optional
+Maintainer: Martyn Eggleton <martyn@access-space.org>
+Standards-Version: 3.6.2
+Architecture: all
+Depends: subversion
+Recommends: jedit
+Description: Web Technology learning @ access-space.org and similar projects
+ Web Technology learning @ access-space.org and similar projects.
+ The tutorials include
+   1. PHP 
+
