@@ -7,11 +7,13 @@
 #   4. Runs setpermissionsforhour.sh 
 
 
-if [ -d /home/$USER/public_html ] 
-then
-	echo "public_html exists"
-else
-	mkdir /home/$USER/public_html
+  if [ -d /home/$USER/public_html ] 
+  then
+    echo "public_html exists"
+  else
+    mkdir /home/$USER/public_html
+  fi
+
   if [ -f /home/$USER/public_html/index.html ] || [ -f /home/$USER/public_html/index.php ]
   then
     echo "Page Exists"
@@ -20,7 +22,7 @@ else
 <?php
   header('Location: http://caterpie/~'.get_current_user().'/');
 END
-fi
+  fi
 
 if [ -f ~/setwebpermissions.sh ] 
 then
@@ -33,12 +35,11 @@ fi
 
 if [ -d /home/$USER/public_html/tutorials ] 
 then
-	echo "tutorials exists"
+	svn update http://access-space-web-tutorials.googlecode.com/svn/trunk/tutorials ~/public_html/tutorials
 else
   svn checkout http://access-space-web-tutorials.googlecode.com/svn/trunk/tutorials ~/public_html/tutorials
 fi
 
-#/usr/share/setuplocalwebspace/setpermissionsforhour.sh
 at -f ~/setwebpermissions.sh 09:02 today
 at -f ~/setwebpermissions.sh 10:02 today
 at -f ~/setwebpermissions.sh 11:02 today
