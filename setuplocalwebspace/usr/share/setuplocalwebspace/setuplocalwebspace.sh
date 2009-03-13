@@ -29,7 +29,7 @@ then
 	echo "~/setwebpermissions.sh exists"
 else
   cp /usr/share/setuplocalwebspace/setwebpermissions.sh ~/setwebpermissions.sh
-  chown $USER:$USER ~/setwebpermissions.sh
+  chown $USER:spacers ~/setwebpermissions.sh
   chmod a+x ~/setwebpermissions.sh
 fi
 
@@ -40,6 +40,7 @@ else
   svn checkout http://access-space-web-tutorials.googlecode.com/svn/trunk/tutorials ~/public_html/tutorials
 fi
 
+~/setwebpermissions.sh
 at -f ~/setwebpermissions.sh 09:02 today
 at -f ~/setwebpermissions.sh 10:02 today
 at -f ~/setwebpermissions.sh 11:02 today
