@@ -53,3 +53,5 @@ at -f ~/setwebpermissions.sh 17:02 today
 at -f ~/setwebpermissions.sh 18:02 today
 at -f ~/setwebpermissions.sh 19:02 today
 
+
+firefox "http://caterpie/~$USER/"
