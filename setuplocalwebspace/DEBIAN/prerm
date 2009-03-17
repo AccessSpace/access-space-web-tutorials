@@ -1,2 +1,4 @@
 #!/bin/sh
-echo "Remove Scripts"
+echo "Removeing setuplocalwebspace Scripts"
+rm -rdf /usr/share/setuplocalwebspace/
+rm /usr/share/applications/setuplocalwebspace.desktop
