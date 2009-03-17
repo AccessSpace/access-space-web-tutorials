@@ -5,7 +5,7 @@
 #   2. if setwebpermissions.sh does not exist copy them in to ~
 #   3. SVN Checkout the tutorials folder
 #   4. Runs setpermissionsforhour.sh 
-
+#   5. Set up At commands so that setpermissionsforhour.sh is run at 2 minutes past the hour until the end of today. 
 
   if [ -d /home/$USER/public_html ] 
   then
@@ -20,7 +20,7 @@
   else
     cat <<END > /home/$USER/public_html/index.php
 <?php
-  header('Location: http://caterpie/~'.get_current_user().'/');
+  header('Location: http://caterpie/~'.get_current_user().'/tutorials/');
 END
   fi
 
