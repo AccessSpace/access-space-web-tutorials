@@ -20,6 +20,7 @@
 <ul>
 <li>Try looking at our course on html <a target="blank" href="http://knowhow.access-space.org/wiki/doku.php?id=courses:html_intro">
 here</a></li>
+<li>Our iGCSE material is <a target="blank" href="iGCSE/web1/">here</a></li>
 <li>If you are interested in php, test our set up <a target="blank" href="phpinfo.php">here</a></li>
 <li>Any requests for additional facilities, features or languages please pass to <a mailto="martyn@access-space.org">Martyn</a>.</li> 
 </ul>
