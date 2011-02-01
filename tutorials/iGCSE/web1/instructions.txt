@@ -15,13 +15,13 @@ and
 
   - Add the style sheet as_homeed.css
   - Add the header.jpg at the top of the page
-  - Set all h1 tags to have letters at 160% of normal size and be bold;
-  - Set all the text in the body to appear in "Lucida Grande" font and if not available to try Verdana,Lucida,Helvetica,Arial or sans-serif
+  - Set all h1 tags to have letters at 160% of normal size and be bold.
+  - Set all h2 tags to have letters at 150% of normal size.
+  - Set all h3 tags to have letters at 140% of normal size and be bold.
+  - All headings colors and alignment should be the default (black and left).
+  - Set all the text on the page to appear in "Lucida Grande" font and if not available to try Verdana,Lucida,Helvetica,Arial or sans-serif.
   - Add a div with class 'page' which wraps around all the content in the body tag.
   - Change the background of the 'page' class white and make it as wide as the header.jpg
   - Use margin:auto; to put the 'page' div in the middle of the page.
   - Add the background.jpg to the body.
-  - Make all the paragraph text fully justified
-
-
-
+  - Make all the paragraph text fully justified.

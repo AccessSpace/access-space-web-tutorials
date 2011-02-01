@@ -3,4 +3,4 @@ h2           { color: #000000; font-family: "Times New Roman"; font-size: 18px; 
 h3           { color: #000000; font-family: "Times New Roman"; font-size: 16px; text-align: left }
 li           { color: #000000; font-family: Arial; font-size: 14px; text-align: left }
 p            { color: #000000; font-family: Arial; font-size: 14px; text-align: left }
-div.page     { color: lightgray;}
+div.page     { background: lightgray;}
