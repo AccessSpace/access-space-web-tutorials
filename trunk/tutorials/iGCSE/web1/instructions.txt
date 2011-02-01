@@ -1,19 +1,27 @@
-Instructions
+====== Web1 ======
 
-Add the style sheet as_homeed.css
-Add the header.jpg at the top of the page
+The files for this exercise can be found online (link to come) or if working in Access Space will be found in your home directory in public_html/tutorials/iGCSE/web1/ (you may first need to run 'Applications -> Programming -> Setup Local Webspace)
 
-Set all h1 tags to have letters at 160% of normal size and be bold;
+===== Writing your own text =====
 
-Set all the text in the body to appear in "Lucida Grande" font and if not available to try Verdana,Lucida,Helvetica,Arial or sans-serif
 
-Add a div with class 'page' which wraps around all the content in the body tag.
+First of all open the index.html file  in an editor and write your own words (in marked up paragraphs) to replace the sections.
+  <p>Write what you have done here.</p>
+and
+  <p>Write what you think about it so far here.</p>
 
-add a white backround to the 'page' class and make it as wide as the header.jpg
-use margin:auto; to put the 'page' div in the middle of the page.
+===== Editing the style. =====
 
-add the background.jpg to the body.
 
-make all the paragraph text fully justified
+  - Add the style sheet as_homeed.css
+  - Add the header.jpg at the top of the page
+  - Set all h1 tags to have letters at 160% of normal size and be bold;
+  - Set all the text in the body to appear in "Lucida Grande" font and if not available to try Verdana,Lucida,Helvetica,Arial or sans-serif
+  - Add a div with class 'page' which wraps around all the content in the body tag.
+  - Change the background of the 'page' class white and make it as wide as the header.jpg
+  - Use margin:auto; to put the 'page' div in the middle of the page.
+  - Add the background.jpg to the body.
+  - Make all the paragraph text fully justified
+
 
 
